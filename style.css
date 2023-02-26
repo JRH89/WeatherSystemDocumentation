@@ -1,5 +1,5 @@
 body {
-    background-color: darkblue;
+    background-color: black;
     color: snow;
   }
   
@@ -30,6 +30,7 @@ body {
     width: 100%;
     padding: 100px;
     box-sizing: border-box;
+    font-size: 30px;
   }
   
   .image-text-container:nth-child(even) .left-image {
