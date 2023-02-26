@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: snow;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-image img,
+  .right-image img {
+    height: 300px;
+    width: 500px;
+  }
+  
+  .left-image {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .right-image {
+    float: right;
+    margin-left: 10px;
+  }
+  
+  .image-text-container {
+    width: 100%;
+    padding: 100px;
+    box-sizing: border-box;
+  }
+  
+  .image-text-container:nth-child(even) .left-image {
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  
+  .image-text-container:nth-child(odd) .right-image {
+    float: left;
+    margin-right: 10px;
+    margin-left: 0;
+  }
+  
+  .text {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+    color: black;
+  }
+  
